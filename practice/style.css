@@ -1,0 +1,101 @@
+body
+{
+    background: ivory;
+    
+}
+div{
+    background: gray;
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    padding: 30px;
+    margin: 30px;
+    box-sizing: border-box;
+    border-radius: 25%;
+    box-shadow: 3px 3px 3px blue;
+}
+p{
+    text-align: justify;
+    font-family: 'Dancing Script', cursive;
+    line-height: 160%;
+    text-shadow: 1px 1px 9px blue; 
+    /*text-shadow: 1px 1px 0px blue, -1px -1px 0px red;*/
+    letter-spacing: -1px;
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+h3{
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+span{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    
+    display: inline-block;
+}
+h1
+{
+    color:red;
+}
+mark
+{
+    color:blue;
+}
+ul li:nth-child(3)
+{
+    color:green;
+}
+ol li:nth-child(6)
+{
+    font-family: 'Dancing Script', cursive; font-size: x-large;
+}
+h2
+{
+    background: greenyellow;
+    width: 100px;
+    height: 100px;
+}
+#big_box
+{
+    background: yellow;
+    border-radius: 0;
+    width: 500px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+.s_box1, .s_box2, .s_box3, .s_box4
+{
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.s_box1
+{
+    position: relative;
+    top: -100px;
+    left: 100px;
+}
+.s_box2
+{
+    position: absolute;
+    top: 100px;
+    left: 100;
+}
+.s_box3
+{
+    position: fixed;
+    right: -40px;
+    bottom: 0;
+}
+.s_box4
+{
+    position: sticky;
+    top: 0;
+}
